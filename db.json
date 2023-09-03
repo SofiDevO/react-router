@@ -1,0 +1,87 @@
+{
+    "categorias": [
+        {
+            "id": "frontend",
+            "nombre": "frontend",
+            "subcategorias": [
+                "javascript",
+                "programacion",
+                "noticias"
+            ]
+        },
+        {
+            "id": "opinion",
+            "nombre": "Opinión",
+            "subcategorias": [
+                "tecnología",
+                "desarrollo",
+                "laboral"
+            ]
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "title": "Dominando el Modo Oscuro con  CSS y javascript",
+            "metadescription": "¿Sabes que es el 'prefers-color-scheme'? Aprende como implementar Modo oscuro en tus sitios web.",
+            "body": "En el mundo del desarrollo web, el uso de variables en CSS se ha convertido en una práctica fundamental para facilitar el mantenimiento y la personalización de estilos. Al declarar variables con la propiedad `--`, podemos asignar valores reutilizables a nuestros estilos, lo que simplifica la tarea de ajustar colores, tamaños y otras propiedades en todo el sitio web. Por otro lado, el despliegue de un proyecto desde GitHub a Hostinger se ha vuelto más accesible gracias a la integración continua. Con herramientas como GitHub Actions, es posible automatizar el proceso de carga y actualización de un sitio web en el servidor de Hostinger cada vez que se realiza una modificación en el repositorio de GitHub. Asimismo, la creación de una Fake REST API se ha vuelto una práctica común para simular datos en entornos de desarrollo y pruebas, lo que agiliza el proceso de desarrollo de aplicaciones. Aunque la IA ha avanzado significativamente en áreas como la generación de texto, la automatización de tareas y el procesamiento de datos, todavía no puede reemplazar por completo a los humanos, ya que carece de la comprensión profunda y la empatía necesaria en muchas situaciones. Además, en el ámbito de la hoja de estilo CSS, la llegada del nesting CSS ha simplificado la organización de reglas y selectores, permitiendo una estructura más clara y mantenible. Por último, es lamentable que, a pesar de la diferencia fundamental entre Java y JavaScript, los reclutadores continúen confundiéndolos en los procesos de contratación, lo que subraya la importancia de la educación y la comunicación efectiva en la industria tecnológica.",
+            "categoria": "frontend",
+            "subcategorias": "javascript",
+            "img": "https://blog.itssofi.dev/wp-content/uploads/2023/08/Portada.png"
+        },
+        {
+            "id": 2,
+            "title": "Crea tu propia Fake  rest api",
+            "metadescription": "Aprende a desplegar tu propia fake api con vercel y json server para tus proyectos de frontend",
+            "body": "La creación de una Fake REST API se ha vuelto una práctica común en el desarrollo de aplicaciones. Permite simular datos y respuestas de servidores para probar y desarrollar aplicaciones en entornos de desarrollo y pruebas sin depender de una API real. Esto acelera el desarrollo y facilita la depuración de aplicaciones al proporcionar datos controlados y predecibles.",
+            "categoria": "frontend",
+            "subcategorias": "programacion",
+            "img": "https://i.ytimg.com/vi/bZ6oqJEA5K0/maxresdefault.jpg"
+        },
+        {
+            "id": 3,
+            "title": "¿Cómo hacer deploy de Github a Hostinger?",
+            "metadescription": "Es necesario evitar que tus mascotas contraigan estos parásitos",
+            "body": "Realizar el despliegue de un proyecto desde GitHub a Hostinger se ha vuelto una tarea más sencilla y automatizada gracias a las herramientas de integración continua. Con GitHub Actions, por ejemplo, los desarrolladores pueden configurar flujos de trabajo que automáticamente suban y actualicen sus sitios web en el servidor de Hostinger cada vez que se realice una modificación en el repositorio de GitHub. Esta automatización ahorra tiempo y reduce la posibilidad de errores humanos en el proceso de implementación.",
+            "categoria": "frontend",
+            "subcategorias": "javascript",
+            "img": "https://i.ytimg.com/vi/RwBcNPybF4Q/maxresdefault.jpg"
+        },
+        {
+            "id": 4,
+            "title": "¿Cómo usar las variables en CSS?",
+            "metadescription": "Evita repetir código con variables css",
+            "body": "En el mundo del desarrollo web, el uso de variables en CSS se ha convertido en una práctica fundamental para facilitar el mantenimiento y la personalización de estilos. Mediante la declaración de variables con el prefijo `--`, los desarrolladores pueden asignar valores reutilizables a propiedades de estilo, lo que facilita en gran medida la modificación y la coherencia visual en todo el proyecto. Esto significa que puedes definir colores, tamaños de fuente, márgenes y otros valores una sola vez y luego utilizar esas variables en múltiples reglas CSS, lo que hace que el código sea más limpio y mantenible.",
+            "categoria": "frontend",
+            "subcategorias": "tutoriales",
+            "img": "https://i.ytimg.com/vi/nJO1jjKUroI/maxresdefault.jpg"
+        },
+        {
+            "id": 5,
+            "title": "¿Nos va a reemplazar la IA?",
+            "metadescription": "¿Nos vamos a quedar sin trabajo en 10 años?",
+            "body": "Aunque la inteligencia artificial (IA) ha avanzado de manera significativa en diversos campos, desde la generación de texto hasta la automatización de tareas, aún no puede reemplazar por completo a los seres humanos. La IA carece de la comprensión profunda, la empatía y la capacidad de toma de decisiones éticas que los humanos aportan en muchas situaciones. Si bien la IA puede ser poderosa como herramienta de apoyo, la idea de una sustitución total sigue siendo una pregunta abierta y depende en gran medida del contexto y la aplicación específica.",
+            "categoria": "opinion",
+            "subcategorias": "tecnología",
+            "img": "https://wwwhatsnew.com/wp-content/uploads/2023/07/google-ia.jpg"
+        },
+        {
+            "id": 6,
+            "title": "Llega nesting CSS",
+            "metadescription": "Finalmente está pasando, CSS está dando soporte a...",
+            "body": "El nesting CSS es una práctica que ha llegado para simplificar la organización de reglas y selectores en hojas de estilo. Con esta técnica, los estilos se anidan dentro de otros selectores, lo que facilita la lectura y la mantenibilidad del código CSS. Esto permite una estructura más clara y organizada, especialmente en proyectos web más grandes y complejos.",
+            "categoria": "opinion",
+            "subcategorias": "desarrollo",
+            "img": "https://i.ytimg.com/vi/SVScyx4cJi8/maxresdefault.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Los reclutadores siguen sin saber la diferencia entre Java y JavaScript",
+            "metadescription": "Los reclutadores siguen pidiendo css parta las vacantes de backend y java para frontend",
+            "body": "Lamentablemente, es común que los reclutadores en la industria tecnológica confundan Java y JavaScript, dos lenguajes de programación completamente diferentes. Java es un lenguaje de programación orientado a objetos ampliamente utilizado en desarrollo de aplicaciones de escritorio y Android, mientras que JavaScript es un lenguaje de programación de scripting utilizado para desarrollar aplicaciones web interactivas en el navegador. Esta confusión resalta la importancia de la educación y la comunicación efectiva en el proceso de contratación de profesionales de TI.",
+            "categoria": "opinion",
+            "subcategorias": "laboral",
+            "img": "https://aprendermarketing.es/wp-content/uploads/2022/02/Hoja-de-ruta-del-desarrollador-front-end-2022.png"
+        }
+    ]
+}

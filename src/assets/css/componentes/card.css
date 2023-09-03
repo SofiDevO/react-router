@@ -1,0 +1,109 @@
+.card {
+  background-color: var(--contrast-light-color);
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  width: 100%;
+  max-width: 45rem;
+  padding: 1.75rem;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+}
+  .container__cards{
+    align-items: center;
+    justify-content: center;
+    padding-right: 10rem;
+    padding-left: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: row;
+  }
+
+
+
+
+.title__card {
+  font-size: var(--font-size-card-title);
+  margin-bottom: 1rem;
+}
+
+.text__card {
+  line-height: 1.2rem;
+}
+ .post__card{
+    width: auto;
+    max-width: 19rem;
+     padding: 1rem 2rem 2rem;
+    box-sizing: border-box;
+    margin-bottom: 2.25rem;
+    border-top: 1rem solid;
+    display: inline-block;
+    background: rgba( 255, 255, 255, 0.55 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    border-radius: 10px;
+  }
+
+
+
+
+.post-card__title {
+  font-size: var(--font-size-card-post-title);
+  font-weight: var(--font-card);
+  margin-bottom: 1rem;
+}
+
+.post-card__meta {
+  line-height: 1.3rem;
+}
+
+
+.post-card--opinion {
+  border-color: var(--cor-categoria-opinion);
+}
+
+.post-card--frontend {
+  border-color: var(--cor-categoria-frontend);
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post {
+  margin-top: 25px;
+}
+
+.posts__imagen{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: -webkit-fill-available;
+    padding: 1rem;
+}
+
+@media (min-width: 900px) {
+  .posts {
+    align-items: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+ 
+  .container__cards{
+    justify-content: space-between;
+    padding: 1rem 2rem 2rem;
+    box-sizing: border-box;
+    margin-bottom: 2.25rem;
+     padding-right: 15rem;
+    padding-left: 15rem;
+  }
+  .post__card {
+    width: 100%;
+    max-width: 25rem;
+  }
+}

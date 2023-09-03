@@ -1,0 +1,47 @@
+/** @format */
+
+.sobre__contenedor-titulo {
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+}
+.sobre__titulo {
+	font-size: 40px;
+	text-align: center;
+	font-family: "Montserrat";
+	font-weight: 600;
+}
+
+.sobre__contenido {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    line-height: normal;
+}
+
+
+
+.coffe {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+.sobre__textos {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+.coffe img {
+	width: 200px;
+}
+@media (min-width: 900px) {
+	.coffe {
+		display: flex;
+		align-items: center;
+		justify-content: end;
+		    flex-direction: row;
+	}
+}
