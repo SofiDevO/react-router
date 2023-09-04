@@ -96,11 +96,10 @@
  
   .container__cards{
     justify-content: space-between;
-    padding: 1rem 2rem 2rem;
+    
     box-sizing: border-box;
     margin-bottom: 2.25rem;
-     padding-right: 15rem;
-    padding-left: 15rem;
+ 
   }
   .post__card {
     width: 100%;

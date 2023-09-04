@@ -1,0 +1,21 @@
+
+
+.contacto__contenedor-titulo {
+	display: flex;
+	justify-content: center;
+	padding: 15px;
+}
+.contacto__titulo {
+	font-size: 40px;
+	text-align: center;
+	font-family: "Montserrat";
+	font-weight: 600;
+}
+
+.contacto__contenido {
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    line-height: normal;
+}
